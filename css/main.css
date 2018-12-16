@@ -15,6 +15,11 @@ html, body {
 	margin-bottom: 2px;
 }
 
+.subtitle {
+	font-family: 'Roboto', sans-serif;
+	align-self: center;
+}
+
 .profile-picture {
   border-radius: 50%;
 }
