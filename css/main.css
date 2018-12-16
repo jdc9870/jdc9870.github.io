@@ -1,8 +1,12 @@
-body {
-	background-color: white;
-	text-align: center;
-	padding: 200px;
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
+
 h1 {
 	font-size: 60px;
 	color: #eeee33;
@@ -11,4 +15,8 @@ h1 {
 ul {
 	font-size: 30px;
 	color: #eeee33;
+}
+
+.profile_picture {
+	border-radius: 50%;
 }
