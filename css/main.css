@@ -7,16 +7,31 @@ html, body {
   padding: 0px;
 }
 
-h1 {
-	font-size: 60px;
-	color: #eeee33;
+.wrapper {
+  background-color: lightpink;
+  
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
 }
 
-ul {
-	font-size: 30px;
-	color: #eeee33;
+.left, .right {
+  background-color: lightblue;
+  
+  margin: 5px;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.profile_picture {
-	border-radius: 50%;
+.left {
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
 }
