@@ -3,24 +3,26 @@
 <head>
 	<title>Jason Chau's Website</title>
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet"> 
 </head>
 <body>
-	<div class="wrapper">
-		<div class="left">
-			<img class="profile-picture" src="public/douche.jpg" width="200">
+    <div class="page-wrapper">
+		<div class="top">
 			<h1 class="name">Jason Chau</h1>
-			<h4 class="subtitle">Math &amp; Computer Science student at UCSD</h4>
-		</div>
-		<div class="right">
-			<p class="bio">
-				Hello! I'm an aspiring web developer currently studying Math and Computer Science at UCSD. Thanks for visting my website!
-			</p>
-    		<ul class="social-links">
-        		<li><a href="jdchau@ucsd.edu">Email</a></li>
-				<li><a href="https://github.com/jdc9870">Github</a></li>
-    		</ul>
-		</div>
-	</div>
+        </div>
+
+        <div class="terminal-window">
+            <header>
+                <div class="button green"></div>
+                <div class="button yellow"></div>
+                <div class="button red"></div>
+            </header>
+            <section class="terminal">
+                <div id="history"></div>
+                <span id="typedtext"></span>
+            </section>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
