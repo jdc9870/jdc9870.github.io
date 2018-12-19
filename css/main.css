@@ -35,6 +35,14 @@ body {
     text-align: center;
 }
 
+div:not(.terminal-window) h2{
+    font-family: 'Architects Daughter', cursive;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
 .terminal-window {
   text-align: left;
   width: 600px;
