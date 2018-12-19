@@ -42,6 +42,7 @@ body {
   border-radius: 10px;
   margin: auto;
   position: relative;
+  margin-top: 50px;
 }
 
 .terminal-window header {
