@@ -18,7 +18,8 @@ var pos;
 var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
-var checkLastLine = 0;
+var checkLastLine = 0; // counter to check for last line printed
+var outputTime = 500;
 
 
 function yeet() {
@@ -46,14 +47,14 @@ function typewriter()
         iIndex++;
         if ( iIndex != aText.length ) {
             iCurrentLength = aText[iIndex].length;  
-            setTimeout("typewriter()", 500);
+            setTimeout("typewriter()", outputTime);
             checkLastLine++;
         }   
     } 
     else {   
         setTimeout("typewriter()", iSpeed);
         if (checkLastLine == 3 && iTextPos == iCurrentLength) {
-            setTimeout(function() {yeet();}, 1000);
+            setTimeout(function() {yeet();}, outputTime);
         }
     }   
 }
