@@ -27,7 +27,7 @@ for (i = 0; i < aLength; i++) {
         count++;
     }
 }
-var totalCount = (aLength*500)+(iSpeed*count) + 1000;
+var totalCount = (aLength*500)+(iSpeed*count) + 2000;
 
 function yeet() {
     var typedtext = document.getElementById("typedtext");
