@@ -29,11 +29,6 @@ body {
 	align-content: center;
 }
 
-.status {
-	font-family: 'Roboto', sans-serif;
-	align-self: center;
-}
-
 .top {
     text-align: center;
 }
@@ -114,54 +109,9 @@ body {
 .terminal-window .gray { color: gray; }
 .terminal-window .green { color: green;}
 
-
-
-.social-links {
-  list-style: none;
-  padding-left: 0px;
-  font-size: 18px;
+.links {
+   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+   font-size: 11pt; 
+   color: aqua;
 }
 
-.social-links li {
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.social-links a {
-  text-decoration: none;
-  padding: 4px;
-}
-
-.social-links a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}

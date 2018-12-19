@@ -3,13 +3,17 @@ var aText = new Array(
 "$ cat jason_origin.txt", 
 "$ cat jason_school.txt",
 "$ cat jason_major.txt",
-"$ cat jason_interests.txt"
+"$ cat jason_interests.txt",
+"$ cat jason_GitHub.txt",
+"$ cat jason_email.txt"    
 );
 var output = new Array(
 "Los Angeles, California",
 "University of California, San Diego",
-"Math and Computer Science",
-"Weightlifting, Basketball, Music, and Dance"
+"Math & Computer Science",
+"Weightlifting, Basketball, Music, and Dance",
+"<a class='links' href='https://github.com/jdc9870'>Jason's Github</a>",
+"<a class='links' href='jdchau@ucsd.edu'>jdchau@ucsd.edu</a>"
 );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
@@ -25,7 +29,7 @@ var outputTime = 500;
 function yeet() {
     var typedtext = document.getElementById("typedtext");
     var newNode = document.createElement("div");
-    newNode.innerHTML = output[3];
+    newNode.innerHTML = output[output.length-1];
     typedtext.parentNode.insertBefore(newNode, typedtext.nextSibling);
 }
 
@@ -53,7 +57,7 @@ function typewriter()
     } 
     else {   
         setTimeout("typewriter()", iSpeed);
-        if (checkLastLine == 3 && iTextPos == iCurrentLength) {
+        if (checkLastLine == aText.length-1 && iTextPos == iCurrentLength) {
             setTimeout(function() {yeet();}, outputTime);
         }
     }   
