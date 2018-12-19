@@ -65,4 +65,4 @@ function typewriter()
     }   
 }
 typewriter();
-fkdis();
+setTimeout(function() {fkdis();}, 5000);
