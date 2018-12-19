@@ -13,7 +13,7 @@ var output = new Array(
 "Math & Computer Science",
 "Weightlifting, Basketball, Music, and Dance",
 "<a class='links' href='https://github.com/jdc9870'>Jason's Github</a>",
-"<a class='links' href='jdchau@ucsd.edu'>jdchau@ucsd.edu</a>"
+"<a class='links' href='mailto: jdchau@ucsd.edu'>jdchau@ucsd.edu</a>"
 );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
