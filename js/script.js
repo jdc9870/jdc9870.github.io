@@ -18,16 +18,8 @@ var pos;
 var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
-var aLength = aText.length;
-var i;
-var j;
-var count = 0;
-for (i = 0; i < aLength; i++) {
-    for (j = 0; j < aText[i].length; j++) {
-        count++;
-    }
-}
-var totalCount = (aLength*500)+(iSpeed*count) + 3000;
+var checkLastLine = 0;
+
 
 function yeet() {
     var typedtext = document.getElementById("typedtext");
@@ -36,9 +28,6 @@ function yeet() {
     typedtext.parentNode.insertBefore(newNode, typedtext.nextSibling);
 }
 
-function fkdis() {
-    huehue = setTimeout(function() {yeet();}, totalCount);
-}
 function typewriter()
 {
     sContents = ' ';
@@ -58,11 +47,14 @@ function typewriter()
         if ( iIndex != aText.length ) {
             iCurrentLength = aText[iIndex].length;  
             setTimeout("typewriter()", 500);
+            checkLastLine++;
         }   
     } 
     else {   
-        setTimeout("typewriter()", iSpeed);   
+        setTimeout("typewriter()", iSpeed);
+        if (checkLastLine == 3 && iTextPos == iCurrentLength) {
+            setTimeout(function() {yeet();}, 1000);
+        }
     }   
 }
 typewriter();
-setTimeout(function() {fkdis();}, 5000);
