@@ -25,12 +25,13 @@ body {
 }
 
 .name {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Architects Daughter', cursive;
+    font-size: 30px; 
 	align-content: center;
+    color: black
 }
 
 .top {
-    color: black
     text-align: center;
 }
 
