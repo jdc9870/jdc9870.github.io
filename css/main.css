@@ -39,8 +39,6 @@ div:not(.terminal-window) h2{
     font-family: 'Architects Daughter', cursive;
     color: aliceblue;
     text-align: center;
-    margin: auto;
-    position: relative;
 }
 
 .terminal-window {
@@ -50,7 +48,6 @@ div:not(.terminal-window) h2{
   border-radius: 10px;
   margin: auto;
   position: relative;
-  margin-top: 50px;
 }
 
 .terminal-window header {
