@@ -23,7 +23,7 @@ var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
 var checkLastLine = 0; // counter to check for last line printed
-var outputTime = 500;
+var outputTime = 500; // time delay of output print out 
 
 
 function yeet() {

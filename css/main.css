@@ -2,26 +2,18 @@ html {
     margin: auto;
     padding: auto;
     height: 100%;
-    background: linear-gradient(135deg, orange, orange 60%, cyan);
 }
 
 body {
     font: 75% sans-serif;
-    color: antiquewhite;
+    color: black;
     margin: 0;
     padding: 0;
 }
 
-.page-wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 120em;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.about {
+    background: linear-gradient(135deg, orange, orange 60%, cyan);
+    padding: 40px;
 }
 
 .name {
@@ -35,7 +27,7 @@ body {
     text-align: center;
 }
 
-div:not(.terminal-window) h2{
+div:not(.terminal-window) .intro{
     font-family: 'Architects Daughter', cursive;
     color: aliceblue;
     text-align: center;
@@ -91,32 +83,6 @@ div:not(.terminal-window) h2{
   overflow: auto;
 }
 
-.terminal-window section.terminal .typed-cursor {
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
-.terminal-data { display: none; }
-.terminal-window .gray { color: gray; }
-.terminal-window .green { color: green;}
-
 .links {
    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
    font-size: 11pt; 
@@ -151,3 +117,34 @@ div:not(.terminal-window) h2{
   color: white;
 }
 
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.middle {
+    margin-top: 0;
+    background-color: azure;
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.educationheader {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 500px;
+}
+
+.educationhr {
+    color: black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
