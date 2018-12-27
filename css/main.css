@@ -267,19 +267,19 @@ li {
 
 .gravitate {
     display: block;
-    align-content: center;
     margin-right: auto;
     margin-left: auto;
-    width:45%;
+    width:46%;
     text-align: center;
     background-color: yellow;
     background-image: url(dark-denim-3.png);
 }
 
 .grav-icon {
-    padding: 10%;
+    padding-top: 10%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10%;
 }
 
 .grav-description {
