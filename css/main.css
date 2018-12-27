@@ -16,28 +16,27 @@ body {
 
 .about {
     /*linear-gradient(135deg, orange, orange 60%, cyan);*/
-    margin-top: 30px;
     background-color: #00cad1;
     background-image: url(dark-denim-3.png);
-    padding: 100px;
-    padding-bottom: 140px;
+    padding: 10%;
 }
 
 .name {
 	font-family: 'Quicksand', sans-serif;
-    font-size: 30px; 
+    font-size: 2rem; 
     color: black;
     width: 100%;
     text-align: center;
     padding-left: 3%;
+    float: center;
 }
 
 .top {  
     width:100%;
     display: table;
     overflow: hidden;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .top .row {
@@ -50,26 +49,28 @@ body {
 }
 
 .navbutton {
-    font-size:30px;
+    font-size:2rem;
     cursor:pointer;
     float: right;
-    padding-right: 20px;
+    padding-right: 50%;
 }
 
 div:not(.terminal-window) .intro{
     font-family: 'Quicksand', sans-serif;
     color: aliceblue;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 5%;
 }
 
 .terminal-window {
-  text-align: left;
-  width: 600px;
-  height: 360px;
-  border-radius: 10px;
-  margin: auto;
-  position: relative;
+    display: block;
+    text-align: left;
+    width: 50%;
+    /*height: 360px;*/
+    height: 25rem;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
 }
 
 .terminal-window header {
@@ -304,7 +305,7 @@ li {
     top: 0;
     right: 0;
     background-color: white;
-    overflow-x: hidden;
+    overflow: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
