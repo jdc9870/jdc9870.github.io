@@ -8,10 +8,10 @@ var aText = new Array(
 "$ cat jason_email.txt"    
 );
 var output = new Array(
-"Los Angeles, California",
-"University of California, San Diego",
-"Math & Computer Science",
-"Weightlifting, Basketball, Music, and Dance",
+'"Los Angeles, California"',
+'"University of California, San Diego"',
+'"Math & Computer Science"',
+'["Weightlifting", "Basketball", "Music", "Dance", "Film"]',
 "<a class='links' href='https://github.com/jdc9870'>Jason's Github</a>",
 "<a class='links' href='mailto: jdchau@ucsd.edu'>jdchau@ucsd.edu</a>"
 );
