@@ -1,7 +1,6 @@
 html {
     margin: auto;
     padding: auto;
-    height: 100%;
 }
 
 body {
@@ -11,13 +10,20 @@ body {
     padding: 0;
 }
 
+.page-wrapper {
+   width: 100%;
+}
+
 .about {
-    background: linear-gradient(135deg, orange, orange 60%, cyan);
+    /*linear-gradient(135deg, orange, orange 60%, cyan);*/
+    margin-top: 60px;
+    background-color: #00cad1;
+    background-image: url(dark-denim-3.png);
     padding: 40px;
 }
 
 .name {
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Quicksand', sans-serif;
     font-size: 30px; 
 	align-content: center;
     color: black
@@ -28,7 +34,7 @@ body {
 }
 
 div:not(.terminal-window) .intro{
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Quicksand', sans-serif;
     color: aliceblue;
     text-align: center;
 }
@@ -84,15 +90,19 @@ div:not(.terminal-window) .intro{
 }
 
 .links {
-   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
-   font-size: 11pt; 
-   color: aqua;
+    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+    font-size: 11pt; 
+    color: aqua;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a background color to the fixed top navigation */
 .topnav {
-  background-color:floralwhite;
-  overflow: hidden;
+    background-color: beige;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -107,14 +117,14 @@ div:not(.terminal-window) .intro{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+    background-color: #4CAF50;
+    color: white;
 }
 
 hr {
@@ -125,61 +135,42 @@ hr {
     border-bottom: 0px;
 }
 
-.middle {
-    background-color:beige;
+.resume-section {
+    background-color: gainsboro;
+   /* background-image: url(dark-denim-3.png);*/
     color: black;
     font-family: 'Roboto';
     text-align: center;
-    margin: 0;
-    padding: 0;
+    width: 100%;
 }
 
-.middleheader {
+.resume-header {
     padding-top: 10px;
     font-size: 30px;
 }
+.education-section {
+    display: inline-block;
+    align-self: center;
+    overflow:hidden;
+    min-width: 50%;
+}
 
-.educationheader {
+.education-header {
     margin: 0px;
-    padding: 0px;
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
     font-size: 20px;
     padding-bottom: 5px;
 }
 
-.h_lineeducation {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height:1px; 
-    background: black;
-    margin-bottom: 10px;
-}
-
-.left { 
-    float: left;
-    padding-left: 300px;
-}
-.right { 
-    float: right; 
-    padding-right: 300px;
-}
-p { 
-    margin: 0px;
-    overflow: hidden; 
-}
-
 .school {
+    align-content: center;
     font-size: 15px;
 }
 
-.school .left {
-    font-weight: bold;
-}
-
 .relevantcw {
-    padding-top: 20px;
+    text-align: left;
+    margin-top: 5%;
     font-size: 15px;
 }
 
@@ -192,6 +183,38 @@ li {
 .courselist {
     margin: 0px;
     padding: 0px;
-    padding-left:350px;
+    padding-left: 30px;
     padding-top: 10px;
 }
+
+.cell {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+    padding-right: 1px;
+    font-style: italic;
+}
+.alignedTable {
+    align-content: center;
+    min-width:100%;
+    display: table;
+    overflow: hidden;
+}
+
+.alignedTable .row {
+    display: table-row;
+}
+
+.alignedTable .row .cell {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.education-hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
