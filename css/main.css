@@ -26,12 +26,34 @@ body {
 .name {
 	font-family: 'Quicksand', sans-serif;
     font-size: 30px; 
-	align-content: center;
     color: black;
+    width: 100%;
+    text-align: center;
+    padding-left: 3%;
 }
 
-.top {
-    text-align: center;
+.top {  
+    width:100%;
+    display: table;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top .row {
+    display: table-row;
+}
+
+.top .row .name {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.navbutton {
+    font-size:30px;
+    cursor:pointer;
+    float: right;
+    padding-right: 20px;
 }
 
 div:not(.terminal-window) .intro{
@@ -271,4 +293,44 @@ li {
 
 .project-description {
     margin-left: 5px;
+}
+
+.sidenav {
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jason Chau's Website</title>
+	<title>Jason Chau</title>
+    <link rel="shortcut icon" href="./css/roundspoder.png" />
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Quicksand" rel="stylesheet"> 
 </head>
@@ -9,8 +10,26 @@
     <div class="page-wrapper">
         <div class="topnav">
             <div class="top">
-			     <h1 class="name">Jason Chau</h1>
+                <div class="row">
+                    <h1 class="name">Jason Chau</h1>
+                    <div class="navbutton" onclick="openNav()">&#9776;</div>
+                </div>
             </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="about-btn" href="#about" onClick="hue()">About</a>
+                <a class="resume-btn" href="#resume-section">Resume</a>
+                <a class="work-btn" href="#work-section">Projects</a>
+            </div>
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "200px";
+                }
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+             <script src="js/scroll.js"></script>
         </div>
 
         <div class="about">
@@ -70,7 +89,7 @@
             </div>
         </div>
         
-        <hr class="workhr" style="border: none;">
+        <hr style="border: none;">
         
         <div class="work-section">
             <div class="work-header">
@@ -91,6 +110,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
     <script src="js/script.js"></script>
 </body>
