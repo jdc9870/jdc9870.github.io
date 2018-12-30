@@ -9,14 +9,13 @@
 <body>
     <div class="page-wrapper">
         <div class="topnav">
-            <div class="top">
+            <div class="top" onmouseover="closeNav()">
                 <div class="row">
                     <h1 class="name">Jason Chau</h1>
                     <div class="navbutton" onclick="openNav()">&#9776;</div>
                 </div>
             </div>
             <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a class="about-btn" href="#about">About</a>
                 <a class="resume-btn" href="#resume">Resume</a>
                 <a class="work-btn" href="#projects">Projects</a>
@@ -31,8 +30,9 @@
             </script>
              <script src="js/scroll.js"></script>
         </div>
-
-        <div class="about">
+        
+    <div onmouseover="closeNav()">
+         <div class="about">
             <div class="intro">
                 <h2>Hello! I'm an aspiring developer graduating in Winter 2019!</h2>
             </div>
@@ -109,8 +109,10 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div>  
         
+    </div>
+    
     </div>
     <script src="js/script.js"></script>
 </body>
