@@ -1,1 +1,1 @@
-[My personal site](www.jasondchau.com)
+[My personal site](https://www.jasondchau.com)
