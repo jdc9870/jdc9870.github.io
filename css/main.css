@@ -7,19 +7,41 @@ body {
     font: 75% sans-serif;
     color: black;
     margin: 0;
-    padding: 0;
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
 }
 
-.page-wrapper {
-   width: 100%;
+.navbar {
+    font-family: 'Quicksand';
+    font-size: 2rem;
+}
+
+.navbar-color {
+    background-color: whitesmoke;
+}
+.navbar-nav {
+    padding-bottom: 15px;
+}
+.navbar-dark {
+    background-color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+.navbar-brand 
+    { 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        align-self: center;
+    }
 }
 
 .about {
     /*linear-gradient(135deg, orange, orange 60%, cyan);*/
-    background-color: #00cad1;
-    background-image: url(dark-denim-3.png);
-    padding: 10%;
-    /*background-size: 100% 100%;*/
+    background-color:  #3b5998;
+    /* background-image: url(dark-denim-3.png); */
+    /* padding: 10%; */
+    padding: 10% 0% 10% 0%;
 }
 
 .name {
@@ -165,9 +187,9 @@ hr {
 }
 
 .resume-section {
-    background-color: darkseagreen;
-    background-image: url(dark-denim-3.png);
-   /* background-image: url(dark-denim-3.png);*/
+    /* background-color: darkseagreen; */
+    background-color: ivory;
+    /* background-image: url(dark-denim-3.png); */
     color: black;
     font-family: 'Roboto';
     text-align: center;
@@ -182,7 +204,7 @@ hr {
     font-family: 'Quicksand', sans-serif;
 }
 .education-section {
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     padding: 2rem;
     padding-bottom: 3rem;
     font-family: 'Quicksand', sans-serif;
@@ -258,8 +280,9 @@ li {
 
 .work-section {
     font-family: 'Quicksand', sans-serif;
-    background-color: #f05d43;
-    background-image: url(dark-denim-3.png);
+    /* background-color: #f05d43; */
+    background-color: #3b5998;
+    /* background-image: url(dark-denim-3.png); */
     padding-bottom: 100px;
 }
 

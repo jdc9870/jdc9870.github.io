@@ -1,0 +1,24 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "Jason's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdc9870/jasonChau.git"
+  },
+  "author": "Jason Chau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdc9870/jasonChau/issues"
+  },
+  "homepage": "https://github.com/jdc9870/jasonChau#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}

@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jason Chau</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jason Chau</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="shortcut icon" href="./css/roundspoder.png" />
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Quicksand" rel="stylesheet"> 
 </head>
 <body>
     <div class="page-wrapper">
-        <div class="topnav">
-            <div class="top" onmouseover="closeNav()">
-                <div class="row">
-                    <h1 class="name">Jason Chau</h1>
-                    <div class="navbutton" onClick="openNav()">&#9776;</div>
+        <nav class="navbar navbar-light navbar-expand-sm navbar-color fixed-top">
+            <div class="container">
+                <div class="d-flex flex-grow-1">
+                    <span class="w-100 d-lg-none d-block"></span>
+                    <a class="navbar-brand mx-auto" href="#">Jason Chau</a>
+                    <div class="w-100 text-right">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse flex-grow-1" id="Navbar">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="about-btn nav-item">
+                            <a class="nav-link text-right text-dark" href="#about">About</a>
+                        </li>
+                        <li class="resume-btn nav-item">
+                            <a class="nav-link text-right text-dark" href="#resume">Resume</a>
+                        </li>
+                        <li class="work-btn nav-item">
+                            <a class="nav-link text-right text-dark" href="#projects">Projects</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div id="mySidenav" class="sidenav">
-                <a class="about-btn" href="#about">About</a>
-                <a class="resume-btn" href="#resume">Resume</a>
-                <a class="work-btn" href="#projects">Projects</a>
-            </div>
-            <script>
-                function openNav() {
-                    document.getElementById("mySidenav").style.width = "200px";
-                }
-                function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0";
-                }
-            </script>
-             <script src="js/scroll.js"></script>
-        </div>
+            <script src="js/scroll.js"></script>
+        </nav>
         
-    <div onmouseover="closeNav()">
+    <div>
          <div class="about">
             <div class="intro">
                 <h2>Hello World! I like to code!</h2>
@@ -117,5 +128,8 @@
     
     </div>
     <script src="js/script.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
