@@ -18,6 +18,7 @@
   "homepage": "https://github.com/jdc9870/jasonChau#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "bootstrap-social": "^5.1.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7"
   }
