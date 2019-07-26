@@ -3,7 +3,9 @@ var aText = new Array(
 "$ cat jason_origin.txt", 
 "$ cat jason_school.txt",
 "$ cat jason_major.txt",
+"$ cat jason_skills.txt",
 "$ cat jason_interests.txt",
+"$ cat jason_resume.txt",
 "$ cat jason_GitHub.txt",
 "$ cat jason_email.txt"    
 );
@@ -11,9 +13,11 @@ var output = new Array(
 '"Los Angeles, California"',
 '"University of California, San Diego"',
 '"Math & Computer Science"',
+'["Java", "C/C++", "JavaScript", "HTML & CSS", "Bootstrap", "React", "React Native", "Redux", "Node.js", "Express"]',
 '["Weightlifting", "Basketball", "Music", "Dance", "Movies", "Drawing"]',
-"<a class='links' href='https://github.com/jdc9870'>Jason's Github</a>",
-"<a class='links' href='mailto: jdchau@ucsd.edu'>jdchau@ucsd.edu</a>"
+"<a class='links' style='text-decoration: none;' href='../public/Jason_Chau_Resume.pdf'>Jason's Resume</a>",
+"<a class='links' style='text-decoration: none;' href='https://github.com/jdc9870'>Jason's Github</a>",
+"<a class='links' style='text-decoration: none;' href='mailto: jasondchau@gmail.com'>jasondchau@gmail.com</a>"
 );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision

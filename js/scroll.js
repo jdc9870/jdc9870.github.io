@@ -81,9 +81,9 @@ function scrollIt(destination, duration = 200, easing = 'linear', callback) {
 document.querySelector('.about-btn').addEventListener('click',
     () => scrollIt(document.querySelector('.about')));
 
-// Scroll to resume page
-document.querySelector('.resume-btn').addEventListener('click',
-    () => scrollIt(document.querySelector('.resume-section')));
+// // Scroll to resume page
+// document.querySelector('.resume-btn').addEventListener('click',
+//     () => scrollIt(document.querySelector('.resume-section')));
 
 // Scroll to work/projects page
 document.querySelector('.work-btn').addEventListener('click',
