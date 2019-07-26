@@ -54,6 +54,9 @@ body {
     float: center;
 }
 
+.termWrap {
+    width: 80%;
+}
 .top {  
     text-align: center;
     width:100%;
@@ -90,7 +93,7 @@ div:not(.terminal-window) .intro{
 .terminal-window {
     display: block;
     text-align: left;
-    /* width: 50%; */
+    width: 80%;
     /*height: 360px;*/
     height: 25rem;
     border-radius: 10px;
