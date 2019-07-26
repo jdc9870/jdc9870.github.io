@@ -13,37 +13,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Quicksand" rel="stylesheet"> 
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 </head>
 <body>
     <div class="page-wrapper">
-        <nav class="navbar navbar-light navbar-expand-sm navbar-color fixed-top">
-            <div class="container">
-                <div class="d-flex flex-grow-1">
-                    <span class="w-100 d-lg-none d-block"></span>
-                    <a class="navbar-brand mx-auto" href="#">Jason Chau</a>
-                    <div class="w-100 text-right">
-                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+        <div class="home">
+            <nav class="navbar navbar-light navbar-expand-sm navbar-color fixed-top">
+                <div class="container">
+                    <div class="d-flex flex-grow-1">
+                        <span class="w-100 d-lg-none d-block"></span>
+                        <a class="navbar-brand mx-auto home-btn" href="#">Jason Chau</a>
+                        <div class="w-100 text-right">
+                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="navbar-collapse collapse flex-grow-1" id="Navbar">
+                        <ul class="navbar-nav ml-auto flex-nowrap">
+                            <li class="about-btn nav-item">
+                                <a class="nav-link text-right text-dark" href="#about">About</a>
+                            </li>
+                            <!-- <li class="resume-btn nav-item">
+                                <a class="nav-link text-right text-dark" href="#resume">Resume</a>
+                            </li> -->
+                            <li class="work-btn nav-item">
+                                <a class="nav-link text-right text-dark" href="#projects">Projects</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="navbar-collapse collapse flex-grow-1" id="Navbar">
-                    <ul class="navbar-nav ml-auto flex-nowrap">
-                        <li class="about-btn nav-item">
-                            <a class="nav-link text-right text-dark" href="#about">About</a>
-                        </li>
-                        <!-- <li class="resume-btn nav-item">
-                            <a class="nav-link text-right text-dark" href="#resume">Resume</a>
-                        </li> -->
-                        <li class="work-btn nav-item">
-                            <a class="nav-link text-right text-dark" href="#projects">Projects</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <script src="js/scroll.js"></script>
-        </nav>
+                <script src="js/scroll.js"></script>
+            </nav>
+        </div>
         
     <div>
          <div class="about">
@@ -63,10 +64,10 @@
                 </div>
             </div>
         </div>
-        
-        <hr style="border: none;">
 <!--         
-        <div class="resume-section"> 
+        <hr style="border: none;"> -->
+        
+        <!-- <div class="resume-section"> 
             <div class="resume-header">
                 <p>Resume</p>
             </div>
@@ -105,9 +106,9 @@
                     </ul>
                 </div>             
             </div>
-        </div> -->
-        
-        <!-- <hr style="border: none;"> -->
+        </div>
+         -->
+        <hr style="border: none;">
         
         <div class="work-section">
             <div class="work-header">
@@ -175,25 +176,5 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup core JS file -->
-    <script src="magnific-popup/jquery.magnific-popup.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.image-popup-no-margins').magnificPopup({
-                type: 'image',
-                closeOnContentClick: true,
-                closeBtnInside: false,
-                fixedContentPos: true,
-                mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-                image: {
-                    verticalFit: true
-                },
-                zoom: {
-                    enabled: true,
-                    duration: 300 // don't foget to change the duration also in CSS
-                }
-	        });
-        });
-    </script>
 </body>
 </html>

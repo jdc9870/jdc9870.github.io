@@ -77,6 +77,10 @@ function scrollIt(destination, duration = 200, easing = 'linear', callback) {
   scroll();
 }
 
+// // Scroll to home page 
+document.querySelector('.home-btn').addEventListener('click',
+    () => scrollIt(document.querySelector('.home')));
+
 // Scroll to about page
 document.querySelector('.about-btn').addEventListener('click',
     () => scrollIt(document.querySelector('.about')));
