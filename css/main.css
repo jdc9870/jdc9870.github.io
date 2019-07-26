@@ -367,3 +367,25 @@ img {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 4rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    color: white;
+    background: #30353A
+}
+
+.fa-youtube {
+    color: white;
+    background: red;
+}
