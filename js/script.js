@@ -15,7 +15,7 @@ var output = new Array(
 '"Math & Computer Science"',
 '["Java", "C/C++", "JavaScript", "HTML & CSS", "Bootstrap", "React", "React Native", "Redux", "Node.js", "Express"]',
 '["Weightlifting", "Basketball", "Music", "Dance", "Movies", "Drawing"]',
-"<a class='links' style='text-decoration: none;' href='../public/Jason_Chau_Resume.pdf'>Jason's Resume</a>",
+"<a class='links' style='text-decoration: none;' href='../Jason_Chau_Resume.pdf'>Jason's Resume</a>",
 "<a class='links' style='text-decoration: none;' href='https://github.com/jdc9870'>Jason's Github</a>",
 "<a class='links' style='text-decoration: none;' href='mailto: jasondchau@gmail.com'>jasondchau@gmail.com</a>"
 );
