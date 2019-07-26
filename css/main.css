@@ -90,7 +90,7 @@ div:not(.terminal-window) .intro{
 .terminal-window {
     display: block;
     text-align: left;
-    width: 50%;
+    /* width: 50%; */
     /*height: 360px;*/
     height: 25rem;
     border-radius: 10px;
@@ -294,6 +294,11 @@ li {
     padding-bottom: 30px;
 }
 
+.inner {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .gravitate {
     display: block;
     margin-right: auto;
@@ -333,39 +338,13 @@ img {
     margin-left: 1rem;
 }
 
-.sidenav {
-    font-family: 'Quicksand', sans-serif;
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: white;
-    overflow: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+.card {
+    float: none;
+    margin-bottom: 10px;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 10px;
-  font-size: 36px;
-  margin-left: 50px;
+.first {
+    width: 85%
 }
 
 @media screen and (max-height: 450px) {
