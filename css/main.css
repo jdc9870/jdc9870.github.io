@@ -141,6 +141,8 @@ div:not(.terminal-window) .intro{
   top: 30px;
   bottom: 0;
   overflow: auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .terminallink a {
     color: orange;
