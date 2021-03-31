@@ -274,8 +274,8 @@ li {
 }
 
 .inner {
-    /*max-width: 1024px;*/
-    width: 55%;
+    max-width: 1024px;
+/*    width: 55%;*/
     margin: 0 auto;
 }
 
@@ -305,8 +305,15 @@ li {
 
 .card {
     float: none;
+    border-radius: 20px;
     margin-bottom: 10px;
 }
+
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 
 .row {
     clear: both;
@@ -319,9 +326,29 @@ li {
     width: 100%;
 }
 
-@media screen and (max-height: 450px) {
+@media only screen and (max-width: 600px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+  .inner {max-width: 80%; width: 80%;}
+}
+
+/*@media only screen and (max-width: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .inner {max-width: 80%; width: 80%;}
+}
+*/
+
+@media only screen and (min-width: 600px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .inner {max-width: 80%; width: 80%;}
+}
+
+@media only screen and (min-width: 1000px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .inner {max-width: 1024px;}
 }
 
 .social a {
