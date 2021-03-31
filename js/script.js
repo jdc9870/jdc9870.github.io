@@ -13,8 +13,8 @@ var output = new Array(
 '"Los Angeles, California"',
 '"University of California, San Diego"',
 '"Math & Computer Science"',
-'["Java", "C/C++", "JavaScript", "HTML & CSS", "Bootstrap", "React", "React Native", "Redux", "Node.js", "Express"]',
-'["Weightlifting", "Basketball", "Music", "Dance", "Movies", "Drawing"]',
+'["Java", "Spring Framework", "JavaScript", "HTML & CSS", "Bootstrap", "Angular", "PostgreSQL", "AWS"]',
+'["Weightlifting", "Basketball", "Games", "Fantasy Books", "Anime"]',
 "<span class='terminallink'><a class='links' href='../Jason_Chau_Resume.pdf'>Jason's Resume</a></span>",
 "<span class='terminallink'><a class='links' href='https://github.com/jdc9870'>Jason's Github</a></span>",
 "<span class='terminallink'><a class='links' href='mailto: jasondchau@gmail.com'>jasondchau@gmail.com</a></span>"

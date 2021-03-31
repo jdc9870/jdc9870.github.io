@@ -86,8 +86,8 @@ document.querySelector('.about-btn').addEventListener('click',
     () => scrollIt(document.querySelector('.about')));
 
 // // Scroll to resume page
-// document.querySelector('.resume-btn').addEventListener('click',
-//     () => scrollIt(document.querySelector('.resume-section')));
+document.querySelector('.resume-btn').addEventListener('click',
+    () => scrollIt(document.querySelector('.resume-section')));
 
 // Scroll to work/projects page
 document.querySelector('.work-btn').addEventListener('click',
