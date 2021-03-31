@@ -274,7 +274,8 @@ li {
 }
 
 .inner {
-    max-width: 1024px;
+    /*max-width: 1024px;*/
+    width: 55%;
     margin: 0 auto;
 }
 
