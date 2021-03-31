@@ -311,11 +311,11 @@ li {
     clear: both;
 }
 .first {
-    width: 50%;
+    width: 100%;
 }
 
 .second {
-    width: 50%;
+    width: 100%;
 }
 
 @media screen and (max-height: 450px) {
