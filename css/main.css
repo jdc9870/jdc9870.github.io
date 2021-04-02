@@ -192,7 +192,8 @@ hr {
     display: inline-block;
     align-self: center;
     overflow:hidden;
-    min-width: 50%;
+/*    min-width: 50%;*/
+    width: 50%;
 }
 
 .education-header {
