@@ -196,6 +196,21 @@ hr {
     width: 50%;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .education-section {
+        /* background-color: gainsboro; */
+        padding: 2rem;
+        padding-bottom: 3rem;
+        font-family: 'Quicksand', sans-serif;
+        display: inline-block;
+        align-self: center;
+        overflow:hidden;
+        /* min-width: 50%;*/
+        width: 70%;
+    }
+}
+
 .education-header {
     margin: 0px;
     text-align: left;
