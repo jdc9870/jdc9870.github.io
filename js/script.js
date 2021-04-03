@@ -19,7 +19,7 @@ var output = new Array(
 "<span class='terminallink'><a class='links' href='https://github.com/jdc9870'>Jason's Github</a></span>",
 "<span class='terminallink'><a class='links' href='mailto: jasondchau@gmail.com'>jasondchau@gmail.com</a></span>"
 );
-var iSpeed = 100; // time delay of print out
+var iSpeed = 10; // time delay of print out 100
 var iIndex = 0; // start printing array at this posision
 var iCurrentLength = aText[0].length; // the length of the text array
 var pos;
@@ -27,7 +27,7 @@ var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
 var checkLastLine = 0; // counter to check for last line printed
-var outputTime = 500; // time delay of output print out 
+var outputTime = 200; // time delay of output print out 500
 
 
 function yeet() {
